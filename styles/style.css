@@ -100,3 +100,33 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/* my code starts here */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #5D6D7E;
+}
+
+.name {
+    font-family: arial;
+    color: #F8F9F9;
+    float: left;
+}
+
+nav {
+    float:right;
+}
+
+nav ul {
+    color: #F8F9F9;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    /* a */
+    font-family: arial;
+    font-size: 15px;
+}
+
