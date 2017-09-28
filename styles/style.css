@@ -304,3 +304,11 @@ footer {
     margin-left: 5px;
     color: aliceblue;
 }
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    font-family: serif;
+    color: aliceblue;
+    margin-top: 15px;
+}
