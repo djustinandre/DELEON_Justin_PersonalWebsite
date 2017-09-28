@@ -9,12 +9,16 @@
             <div class="wrapper">
                <div class="name">JUSTIN DE LEON</div>
                 <nav>
-                    <ul>
-                        <li>HOME</li>
-                        <li>PORTFOLIO</li>
-                        <li>BLOG</li>
-                        <li>CONTACT</li>
-                    </ul>
+                    <div class="menu_icon" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <script>
+                        function myFunction(x) {
+                            x.classList.toggle("change");
+                        }
+                    </script>
                 </nav>
             </div>
         </header>
