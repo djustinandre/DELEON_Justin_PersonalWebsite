@@ -235,6 +235,17 @@ nav {
     background-size: cover;
 }
 
+#about h2 {
+    float: right;
+    text-align: right;
+    font-size: 50px; 
+}
+
+#about p {
+    float right;
+    text-align: justify;
+}
+
 #skills {
     width: 100%;
     height: 705px;
