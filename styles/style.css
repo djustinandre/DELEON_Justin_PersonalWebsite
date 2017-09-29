@@ -273,21 +273,19 @@ nav {
 #about h2 {
     margin-top: 10%;
     font-size: 50px;
-    margin-left: 2%;
 }
 
 .prof {
     padding: 10%;
     margin-top: 9%;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 #about p {
     text-align: justify;
-    margin-left: 2%;
     margin-top: 5%;
     font-size: 30px;
-    margin-right: 1%;
+    margin-right: 6%;
 }
 
 /* SKILLS */
@@ -346,14 +344,55 @@ nav {
 #gallery {
     width: 100%;
     height: 705px;
-    background: url(../img/white-background-gallery.jpg) no-repeat center center fixed;
+    background: url(../img/gallery-background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.first {
+    float: left;
+    width: 33.33%;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+}
 
+.sec {
+    float: left;
+    width: 33.33%;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+}
+
+.last {
+    float: left;
+    width: 33.33%;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+}
+
+.gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#gallery p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#gallery h2 {
+    text-align: center;
+}
 /* BLOG */
 
 #blog {
