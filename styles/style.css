@@ -242,7 +242,7 @@ nav {
 
 #about {
     width: 100%;
-    height: 705px;
+    height: 705px;     
     background: url(../img/about-background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -250,16 +250,39 @@ nav {
     background-size: cover;
 }
 
+.about {
+ 	height: 100%;
+}
+
+.column1 {
+    float: left;
+    width: 35%;
+}
+
+.column2 {
+    float: right;
+    width: 65%;
+}
 
 #about h2 {
-    float: right;
-    text-align: right;
-    font-size: 50px; 
+    margin-top: 10%;
+    font-size: 50px;
+    margin-left: 2%;
+}
+
+.prof {
+    padding: 10%;
+    margin-top: 9%;
+    margin-left: 10%;
 }
 
 #about p {
-    float right;
     text-align: justify;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 30px;
+    margin-right: 1%;
+    /*letter-spacing: 0.5px; */
 }
 
 #skills {
@@ -311,13 +334,9 @@ nav {
 .c {width: 75%; background-color: #808080;} /* Dark Grey */
 .js {width: 10%; background-color: #faeb14;} /* Yellow */
 
-.prof {
-    margin-top: 75px;
-    margin-left: 30px;
-}
 
 #blog {
-     width: 100%;
+    width: 100%;
     height: 705px;
     background: url(../img/blog-background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -333,6 +352,7 @@ nav {
     margin: 0 auto;
     padding-top: 10px;
 }
+
 
 .column {
     float: left;
@@ -411,3 +431,4 @@ footer p {
     color: aliceblue;
     margin-top: 15px;
 }
+
