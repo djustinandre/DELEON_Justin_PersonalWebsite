@@ -344,17 +344,13 @@ nav {
 #gallery {
     width: 100%;
     height: 705px;
-    background: url(../img/gallery-background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #f0f0f0;
 }
 
 .first {
     float: left;
     width: 33.33%;
-    padding-top: 10%;
+    padding-top: 6%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 4%;
@@ -363,7 +359,7 @@ nav {
 .sec {
     float: left;
     width: 33.33%;
-    padding-top: 10%;
+    padding-top: 6%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 4%;
@@ -372,10 +368,10 @@ nav {
 .last {
     float: left;
     width: 33.33%;
-    padding-top: 10%;
+    padding-top: 6%;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 
 .gallery:after {
@@ -386,12 +382,15 @@ nav {
 
 #gallery p {
     text-align: center;
-    color: aliceblue;
+    color: #383838;
     font-size: 25px;
 }
 
 #gallery h2 {
+    padding-top: 3%;
     text-align: center;
+    font-size: 40px;
+    color: #383838;
 }
 /* BLOG */
 
