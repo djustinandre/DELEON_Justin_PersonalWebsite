@@ -322,7 +322,7 @@ nav {
 
 .skills-layout h2 {
     font-size: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
     color: aliceblue;
 }
 
@@ -350,21 +350,21 @@ nav {
 .info {
     float: left;
     width: 33.33%;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-bottom: 4%;
 }
 
 .vexel {
     float: left;
     width: 33.33%;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-bottom: 4%;
 }
 
 .logo {
     float: left;
     width: 33.33%;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-bottom: 4%;
 }
 
@@ -454,12 +454,13 @@ nav {
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 2%;
+    /*margin: 0 auto;*/
+    padding-top: 3%;
+    padding-bottom: 1px;
 }
 
 .blog {
-    padding-top: 8%;
+    padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 4%;
@@ -536,6 +537,18 @@ nav {
     text-decoration: none;
 }
 
+.white-linebreak {
+    width: 200px;
+    border-top: solid aliceblue;
+    margin: 1% auto;
+}
+
+.black-linebreak {
+    width: 200px;
+    border-top: solid #000;
+    margin: 1% auto;
+}
+
 /* CONTACT */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -575,6 +588,12 @@ input[type=submit]:hover {
     font-size: 40px;
     color: black;
     margin-bottom: 20px;
+    font-family:sans-serif;
+}
+
+#contact label {
+    font-style: normal;
+    font-family: sans-serif;
 }
 
 
