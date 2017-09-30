@@ -347,38 +347,27 @@ nav {
     background-color: #f0f0f0;
 }
 
-.first {
+.info {
     float: left;
     width: 33.33%;
     padding-top: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
     padding-bottom: 4%;
 }
 
-.sec {
+.vexel {
     float: left;
     width: 33.33%;
     padding-top: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
     padding-bottom: 4%;
 }
 
-.last {
+.logo {
     float: left;
     width: 33.33%;
     padding-top: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
-.gallery:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 #gallery p {
     text-align: center;
@@ -391,6 +380,17 @@ nav {
     text-align: center;
     font-size: 40px;
     color: #383838;
+}
+
+#gallery img {
+    border: 0.5px solid #ddd; /* Gray border */
+    border-radius: 4%;  /* Rounded border */
+    padding: 5px;
+    width: 100%;
+}
+
+#gallery img:hover {
+    box-shadow: 0 0 2px 1px rgba(128, 128, 128, 0.5);
 }
 /* BLOG */
 
