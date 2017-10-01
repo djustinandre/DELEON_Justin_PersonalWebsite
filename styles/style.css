@@ -107,7 +107,9 @@ input, select {
     src: url('../fonts/Lato-Black.ttf');
     font-family: lt;
     src: url('../fonts/Lato-thin.ttf');
+    
 }
+
 
 body{
   font-family: lt;
@@ -116,9 +118,9 @@ body{
 }
 
 .navbar{
-  background-color: #282828;
-  overflow:hidden;
-  height:63px;
+    background-color: #282828;
+    overflow:hidden;
+    height:60px;
 }
 
 .navbar a{
@@ -389,7 +391,6 @@ body{
 
     /* Fade in tooltip */
     opacity: 0;
-    transition: opacity 1s;
 }
 
 /* Tooltip arrow */
@@ -536,7 +537,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #505050;
+    background-color: #27ae60;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -545,10 +546,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #606060;
+    background-color: #2ecc71;
 }
 
-/* Add a background color and some padding around the form */
 .container-contact {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -559,12 +559,12 @@ input[type=submit]:hover {
     font-size: 40px;
     color: black;
     margin-bottom: 20px;
-    font-family:sans-serif;
+    font-family: lt;
 }
 
 #contact label {
     font-style: normal;
-    font-family: sans-serif;
+    font-family: lt;
 }
 
 /* FOOTER */
@@ -574,10 +574,16 @@ footer {
     padding: 30px 0px;
 }
 
+.social-icons {
+    text-align: center;
+    margin-left: 5px;
+}
+
 footer p {
     text-align: center;
     font-size: 15px;
     font-family: serif;
     color: aliceblue;
     margin-top: 15px;
+    font-family: lt;
 }
