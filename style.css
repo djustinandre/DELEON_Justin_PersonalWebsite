@@ -1,0 +1,678 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* My Code */
+@font-face {
+  font-family: lb;
+  src: url('../fonts/Lato-Black.ttf');
+  font-family: lt;
+  src: url('../fonts/Lato-thin.ttf');
+}
+
+body {
+  font-family: lt;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #282828;
+  overflow: hidden;
+  height: 60px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.name {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: lt;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #282828;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: #1abc9c;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  overflow: hidden;
+  width: 100%;
+}
+
+#home {
+  width: 100%;
+  height: 705px;
+  background: url(../img/cover-home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-text {
+  font-family: sans-serif;
+  font-size: 85px;
+  text-align: left;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  color: #f1c40f;
+}
+
+#home-button {
+  float: left;
+  background-color: transparent;
+  border: solid aliceblue;
+  color: #fff;
+  font-size: 15px;
+  padding: 1%;
+  margin-top: 30px;
+}
+
+#home-button:hover {
+  border-color: #16a085;
+  color: #16a085;
+}
+
+/* ABOUT */
+
+#about {
+  width: 100%;
+  height: 705px;
+  background: url(../img/about-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.column1 {
+  float: left;
+  width: 35%;
+}
+
+.column2 {
+  float: right;
+  width: 65%;
+}
+
+.prof {
+  padding: 9%;
+  margin-top: 9%;
+  width: 500px;
+  vertical-align: middle;
+}
+
+#about h2 {
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 10%;
+  font-size: 55px;
+  color: #282828;
+}
+
+#about p {
+  text-align: justify;
+  margin-top: 4%;
+  font-size: 28px;
+  margin-left: 2%;
+  margin-right: 4%;
+  color: #282828;
+  line-height: 50px;
+}
+
+/* SKILLS */
+
+#skills {
+  width: 100%;
+  height: 650px;
+  background-color: #68768a;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container-skill {
+  font-size: 30px;
+  color: aliceblue;
+  text-align: right;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills-layout {
+  width: 600px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5%;
+  margin: 0 auto;
+}
+
+.skills-layout h2 {
+  font-size: 60px;
+  margin-bottom: 2%;
+  color: #f1c40f;
+}
+
+.skills-layout p {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #2ecc71;
+}
+.css {
+  width: 80%;
+  background-color: #2ecc71;
+}
+.java {
+  width: 80%;
+  background-color: #2ecc71;
+}
+.c {
+  width: 75%;
+  background-color: #2ecc71;
+}
+.js {
+  width: 10%;
+  background-color: #2ecc71;
+}
+
+/* Gallery */
+
+#gallery {
+  width: 100%;
+  height: 705px;
+  background-color: #2c3e50;
+}
+
+.info {
+  float: left;
+  width: 33.33%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.vexel {
+  float: left;
+  width: 33.33%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.logo {
+  float: left;
+  width: 33.33%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#gallery h2 {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 40px;
+  color: #ecf0f1;
+}
+
+#gallery p {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 25px;
+}
+
+#gallery img {
+  border: 0.5px solid #2c3e50;
+  border-radius: 4%; /* Rounded border */
+  padding: 5px;
+  width: 100%;
+}
+
+#gallery img:hover {
+  box-shadow: 0 0 2px 1px #ecf0f1;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #34495e;
+  color: #e74c3c;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 102%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* BLOG */
+
+#blog {
+  width: 100%;
+  height: 705px;
+  background: url(../img/blog-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#blog h2 {
+  color: whitesmoke;
+  font-size: 50px;
+  text-align: center;
+  /*margin: 0 auto;*/
+  padding-top: 3%;
+  padding-bottom: 1px;
+}
+
+.blog {
+  padding-top: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%;
+}
+
+#blog p {
+  text-align: center;
+  color: aliceblue;
+}
+
+.col1 {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.col2 {
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+.blog {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.col1:hover .blog {
+  opacity: 0.3;
+}
+
+.col1:hover .middle {
+  opacity: 1;
+}
+
+.col2:hover .blog {
+  opacity: 0.3;
+}
+
+.col2:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  border: solid aliceblue;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.text:hover {
+  background-color: aliceblue;
+  color: #000;
+}
+
+#blog a {
+  text-decoration: none;
+}
+
+.white-linebreak {
+  width: 200px;
+  border-top: solid aliceblue;
+  margin: 1% auto;
+}
+
+.black-linebreak {
+  width: 200px;
+  border-top: solid #ecf0f1;
+  margin: 1% auto;
+}
+
+/* CONTACT */
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #2ecc71;
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contact h2 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: lt;
+}
+
+#contact label {
+  font-style: normal;
+  font-family: lt;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #282828;
+  padding: 30px 0px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-left: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  font-family: serif;
+  color: aliceblue;
+  margin-top: 15px;
+  font-family: lt;
+}
