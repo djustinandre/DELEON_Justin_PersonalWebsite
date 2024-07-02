@@ -246,6 +246,8 @@ body{
 .prof {
     padding: 9%;
     margin-top: 9%;
+    width: 500px;
+    vertical-align: middle;
 }
 
 #about h2 {
